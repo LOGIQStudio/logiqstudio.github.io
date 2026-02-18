@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Blog — LOGIQ Studio</title>
+<meta name="description" content="AI marketing insights, strategies, and tips from the LOGIQ Studio team."/>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCUiIHkxPSIwJSIgeDI9IjEwMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDBiZmZmIi8+PHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMwMDk5ZmYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMGZmZmYiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0iYiIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwNzdmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxwYXRoIGQ9Ik0xNiAxTDE5LjUgMTEuNUwzMCAxNkwxOS41IDIwLjVMMTYgMzFMMTIuNSAyMC41TDIgMTZMMTIuNSAxMS41WiIgZmlsbD0idXJsKCNhKSIgb3BhY2l0eT0iLjkiLz48cGF0aCBkPSJNMTYgNkwxOC4yIDEyLjhMMjUgMTZMMTguMiAxOS4yTDE2IDI2TDEzLjggMTkuMkw3IDE2TDEzLjggMTIuOFoiIGZpbGw9InVybCgjYikiLz48dGV4dCB4PSIxNiIgeT0iMTkuNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLHNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSI4MDAiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iIzA2MDgxMCI+TDwvdGV4dD48L3N2Zz4="/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+<style>
+:root{--neon:#00bfff;--cyan:#00ffff;--glow:rgba(0,191,255,.35);--dim:rgba(0,191,255,.07);--mid:rgba(0,191,255,.14);--bg:#060810;--bg2:#0a0e1a;--card:#0d1220;--card2:#111830;--txt:#e6ecf5;--txt2:#7b8698;--muted:#525e72;--border:rgba(0,191,255,.1);--bdr2:rgba(0,191,255,.2);--df:'Orbitron',sans-serif;--bf:'Outfit',sans-serif;--r:18px;--rs:12px;--ease:cubic-bezier(.25,.46,.45,.94);--t:.35s var(--ease)}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:var(--bf);background:var(--bg);color:var(--txt);line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}a{text-decoration:none;color:inherit}ul{list-style:none}img{max-width:100%;display:block}::selection{background:rgba(0,191,255,.25);color:#fff}
+.atmosphere{position:fixed;inset:0;pointer-events:none;z-index:0}.atmosphere::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 700px 700px at 15% 10%,rgba(0,191,255,.04) 0%,transparent 70%),radial-gradient(ellipse 500px 500px at 85% 85%,rgba(0,120,255,.03) 0%,transparent 70%)}.atmosphere::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(0,191,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(0,191,255,.02) 1px,transparent 1px);background-size:64px 64px}
+main,header,footer{position:relative;z-index:1}.container{width:100%;max-width:1200px;margin:0 auto;padding:0 24px}section{padding:100px 0;position:relative}
+.sl{font-family:var(--df);font-size:.65rem;letter-spacing:5px;text-transform:uppercase;color:var(--neon);margin-bottom:14px;display:inline-block}.st{font-family:var(--df);font-size:clamp(1.5rem,3.8vw,2.5rem);font-weight:700;margin-bottom:18px;line-height:1.25}.sd{color:var(--txt2);font-size:1.02rem;max-width:640px;line-height:1.85}.sh{text-align:center;max-width:640px;margin:0 auto}.sh .sd{margin:0 auto}
+.nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 24px;transition:background var(--t),box-shadow var(--t)}.nav.scrolled{background:rgba(6,8,16,.9);backdrop-filter:blur(24px);box-shadow:0 1px 0 var(--border)}.nav-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:72px}.nav-logo{font-family:var(--df);font-weight:800;font-size:1.15rem;letter-spacing:2.5px;color:var(--neon);text-shadow:0 0 24px var(--glow)}.nav-logo span{color:var(--txt)}.nav-links{display:flex;gap:28px;align-items:center}.nav-links a{font-size:.8rem;font-weight:500;letter-spacing:.5px;color:var(--txt2);transition:color var(--t);position:relative}.nav-links a::after{content:'';position:absolute;bottom:-4px;left:0;width:0;height:2px;background:var(--neon);transition:width var(--t)}.nav-links a:hover{color:var(--txt)}.nav-links a:hover::after{width:100%}.nav-links a.active{color:var(--neon)}.ham{display:none;flex-direction:column;gap:5px;cursor:pointer;background:0;border:0;padding:8px}.ham span{width:24px;height:2px;background:var(--txt);transition:var(--t);border-radius:2px}.ham.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}.ham.active span:nth-child(2){opacity:0}.ham.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}.mnav{display:none;position:fixed;top:72px;left:0;right:0;bottom:0;background:rgba(6,8,16,.97);backdrop-filter:blur(28px);z-index:999;flex-direction:column;align-items:center;justify-content:center;gap:28px}.mnav.open{display:flex}.mnav a{font-family:var(--df);font-size:1rem;letter-spacing:2px;color:var(--txt2);transition:color var(--t)}.mnav a:hover{color:var(--neon)}
+.page-hdr{padding:140px 24px 60px;text-align:center;background:var(--bg2);border-bottom:1px solid var(--border)}
+/* BLOG */
+.blog-list{display:flex;flex-direction:column;gap:40px;margin-top:48px;max-width:900px;margin-left:auto;margin-right:auto}
+.blog-card{display:grid;grid-template-columns:320px 1fr;background:var(--card);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;transition:var(--t)}
+.blog-card:hover{transform:translateY(-6px);box-shadow:0 20px 60px rgba(0,0,0,.3)}
+.blog-img{width:100%;height:100%;min-height:220px;object-fit:cover;background:var(--card2)}
+.blog-body{padding:32px;display:flex;flex-direction:column;justify-content:center}
+.blog-date{font-family:var(--df);font-size:.6rem;letter-spacing:2px;text-transform:uppercase;color:var(--neon);margin-bottom:10px}
+.blog-body h2{font-family:var(--df);font-size:.95rem;font-weight:600;line-height:1.4;margin-bottom:12px;letter-spacing:.3px}
+.blog-body p{color:var(--txt2);font-size:.88rem;line-height:1.8;margin-bottom:20px}
+.blog-link{font-family:var(--df);font-size:.7rem;font-weight:600;color:var(--neon);letter-spacing:1px;display:inline-flex;align-items:center;gap:6px;transition:var(--t)}
+.blog-link:hover{gap:10px}
+/* ARTICLE FULL */
+.article{max-width:800px;margin:0 auto;padding-top:40px}
+.article h2{font-family:var(--df);font-size:1.3rem;font-weight:700;margin-bottom:16px}
+.article p{color:var(--txt2);font-size:.95rem;line-height:1.9;margin-bottom:16px}
+.article h3{font-family:var(--df);font-size:.9rem;font-weight:600;margin:28px 0 12px;color:var(--txt)}
+.back-link{display:inline-flex;align-items:center;gap:8px;font-family:var(--df);font-size:.7rem;color:var(--neon);letter-spacing:1px;margin-bottom:24px;transition:var(--t)}
+.back-link:hover{gap:12px}
+.footer{padding:60px 24px 32px;border-top:1px solid var(--border);background:var(--bg)}.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:40px}.footer-brand .nav-logo{margin-bottom:12px;display:inline-block}.footer-brand p{color:var(--txt2);font-size:.88rem;line-height:1.7;max-width:280px}.footer h4{font-family:var(--df);font-size:.65rem;letter-spacing:3px;text-transform:uppercase;color:var(--neon);margin-bottom:16px}.footer ul li{margin-bottom:10px}.footer ul a{color:var(--txt2);font-size:.88rem;transition:color var(--t)}.footer ul a:hover{color:var(--neon)}.footer-bottom{border-top:1px solid var(--border);padding-top:24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}.footer-bottom p{font-size:.78rem;color:var(--muted)}.footer-bottom a{color:var(--neon)}
+@media(max-width:768px){section{padding:80px 0}.nav-links{display:none}.ham{display:flex}.blog-card{grid-template-columns:1fr}.blog-img{min-height:200px}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;text-align:center}}
+@media(max-width:440px){.container{padding:0 16px}}
+</style>
+</head>
+<body>
+<div class="atmosphere"></div>
+<header class="nav" id="navbar"><div class="nav-inner"><a href="index.html" class="nav-logo">LOGIQ<span> Studio</span></a><nav class="nav-links"><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="blog.html" class="active">Blog</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></nav><button class="ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button></div></header>
+<div class="mnav" id="mnav"><a href="index.html">Home</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a href="blog.html">Blog</a><a href="about.html">About Us</a><a href="contact.html">Contact</a></div>
+
+<main>
+<div class="page-hdr">
+<span class="sl" data-aos="fade-up">Insights</span>
+<h1 class="st" data-aos="fade-up" data-aos-delay="100">Blog</h1>
+<p class="sd" style="margin:0 auto" data-aos="fade-up" data-aos-delay="150">AI marketing strategies, industry insights, and growth playbooks from our team.</p>
+</div>
+
+<section id="blog-list-section">
+<div class="container">
+<div class="blog-list" id="blogList">
+
+<div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+<img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&fit=crop" alt="AI SEO" class="blog-img" loading="lazy"/>
+<div class="blog-body">
+<div class="blog-date">February 10, 2026</div>
+<h2>How AI Transforms SEO in 2026: The New Rules of Search</h2>
+<p>Search engines are evolving rapidly with AI-generated results. Here's how smart brands are adapting their SEO strategy to stay ahead of the curve and capture organic traffic in the age of AI overviews.</p>
+<a href="#" class="blog-link" onclick="showArticle(0);return false;">Read Article <i class="fas fa-arrow-right"></i></a>
+</div>
+</div>
+
+<div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+<img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&h=400&fit=crop" alt="Reddit Marketing" class="blog-img" loading="lazy"/>
+<div class="blog-body">
+<div class="blog-date">January 28, 2026</div>
+<h2>Reddit Marketing with AI: How to Tap Into the Most Underrated Platform</h2>
+<p>Reddit drives more genuine engagement than most social platforms. Learn how AI tools can help you craft authentic, community-approved content that builds trust and drives conversions.</p>
+<a href="#" class="blog-link" onclick="showArticle(1);return false;">Read Article <i class="fas fa-arrow-right"></i></a>
+</div>
+</div>
+
+<div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop" alt="Scaling Ads" class="blog-img" loading="lazy"/>
+<div class="blog-body">
+<div class="blog-date">January 15, 2026</div>
+<h2>Scaling Ads with Gemini: A Practical Guide to AI-Powered Campaign Optimization</h2>
+<p>Google's Gemini model is changing how advertisers think about campaign optimization. From audience insights to creative generation, here's your complete playbook for leveraging Gemini in paid media.</p>
+<a href="#" class="blog-link" onclick="showArticle(2);return false;">Read Article <i class="fas fa-arrow-right"></i></a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ARTICLE VIEW (hidden by default) -->
+<section id="articleView" style="display:none">
+<div class="container">
+<div class="article">
+<a href="#" class="back-link" onclick="hideArticle();return false;"><i class="fas fa-arrow-left"></i> Back to Blog</a>
+<div id="articleContent"></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html" class="nav-logo">LOGIQ<span> Studio</span></a><p>Hybrid AI Marketing Agency. Scaling brands worldwide.</p></div><div><h4>Pages</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="blog.html">Blog</a></li></ul></div><div><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact</a></li></ul></div><div><h4>Contact</h4><ul><li><a href="mailto:hellologiqstudio@gmail.com">hellologiqstudio@gmail.com</a></li><li><a href="https://t.me/logiqstudio" target="_blank">Telegram: @logiqstudio</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 LOGIQ Studio. All rights reserved.</p><p>Email: <a href="mailto:hellologiqstudio@gmail.com">hellologiqstudio@gmail.com</a></p></div></div></footer>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+AOS.init({duration:800,easing:'ease-out-cubic',once:true,offset:80});
+const nb=document.getElementById('navbar');window.addEventListener('scroll',()=>nb.classList.toggle('scrolled',scrollY>40));
+const hm=document.getElementById('ham'),mn=document.getElementById('mnav');
+hm.addEventListener('click',()=>{hm.classList.toggle('active');mn.classList.toggle('open');document.body.style.overflow=mn.classList.contains('open')?'hidden':''});
+mn.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{hm.classList.remove('active');mn.classList.remove('open');document.body.style.overflow=''}));
+
+const articles=[
+{title:'How AI Transforms SEO in 2026: The New Rules of Search',date:'February 10, 2026',html:`
+<h2>How AI Transforms SEO in 2026: The New Rules of Search</h2>
+<p>The SEO landscape has fundamentally shifted. With Google's AI Overviews dominating search results and AI-powered answer engines like Perplexity gaining traction, the rules that governed organic search for the past decade are being rewritten in real time.</p>
+<h3>The Death of Traditional Keyword Stuffing</h3>
+<p>In 2026, search engines understand intent, context, and nuance better than ever. Simply targeting keywords isn't enough — your content needs to demonstrate genuine expertise and provide comprehensive, authoritative answers. AI-generated search results pull from multiple sources, meaning your content needs to be the definitive resource on your topic to get cited.</p>
+<h3>Entity-Based SEO Is King</h3>
+<p>Google's Knowledge Graph has evolved into an entity-driven ecosystem. Brands that build strong entity associations — connecting their name with specific topics, products, and expertise — are rewarded with featured positions in AI-generated summaries. This means your off-page presence matters as much as on-page optimization.</p>
+<h3>How AI Tools Help You Win</h3>
+<p>The irony is that AI tools are both the disruptor and the solution. Tools like Gemini and Claude can help you analyze search intent at scale, identify content gaps, generate comprehensive outlines, and optimize existing content for entity relevance. At LOGIQ Studio, we use AI to audit sites in hours instead of weeks, identifying exactly where your biggest SEO opportunities lie.</p>
+<h3>Practical Steps You Can Take Today</h3>
+<p>First, audit your existing content for topical authority — are you covering your subject area comprehensively? Second, build your brand's entity profile through consistent mentions across authoritative platforms. Third, focus on creating content that answers specific questions better than any competitor. Finally, optimize for AI citation by structuring content with clear claims backed by data.</p>
+<p>The brands that adapt to AI-driven search will capture disproportionate organic traffic. The ones that don't will watch their visibility erode month by month. The time to act is now.</p>
+`},
+{title:'Reddit Marketing with AI: How to Tap Into the Most Underrated Platform',date:'January 28, 2026',html:`
+<h2>Reddit Marketing with AI: How to Tap Into the Most Underrated Platform</h2>
+<p>Reddit has 1.7 billion monthly visits, yet most brands ignore it entirely. The reason? Reddit users are notoriously allergic to traditional marketing. But that's exactly what makes it so valuable — the engagement is real, the trust is earned, and the conversion rates for brands that crack the code are exceptional.</p>
+<h3>Why Reddit Matters in 2026</h3>
+<p>Google now surfaces Reddit threads prominently in search results. When someone searches "best CRM for small business," they're increasingly seeing Reddit discussions alongside traditional review sites. This means Reddit content has dual value — it drives direct traffic AND boosts your SEO visibility through Google's integration.</p>
+<h3>The AI Advantage for Reddit</h3>
+<p>The challenge with Reddit is authenticity. Users can spot corporate content instantly, and the downvote system punishes anything that feels inauthentic. This is where AI becomes your secret weapon. AI tools can analyze subreddit culture, tone, and conversation patterns to help you craft posts that feel native to each community.</p>
+<h3>Our Proven Reddit Strategy</h3>
+<p>At LOGIQ Studio, we use AI to identify the highest-value subreddits for each client, analyze top-performing post patterns, and generate content frameworks that match community expectations. Our human strategists then refine each piece to ensure it provides genuine value — answering questions, sharing insights, or contributing to discussions in ways that naturally showcase our clients' expertise.</p>
+<h3>Results You Can Expect</h3>
+<p>Clients who implement our Reddit strategy consistently see 3–5× higher engagement rates than on other social platforms, 40% lower customer acquisition costs, and a steady stream of high-intent traffic. The key is patience and authenticity — Reddit rewards brands that contribute before they promote.</p>
+<p>If you're not on Reddit yet, you're leaving money on the table. And if you are on Reddit but struggling to gain traction, AI-powered strategy can be the difference between getting downvoted into oblivion and building a loyal community of advocates.</p>
+`},
+{title:'Scaling Ads with Gemini: A Practical Guide to AI-Powered Campaign Optimization',date:'January 15, 2026',html:`
+<h2>Scaling Ads with Gemini: A Practical Guide to AI-Powered Campaign Optimization</h2>
+<p>Google's Gemini model isn't just a chatbot — it's becoming the backbone of advertising intelligence. From audience insights to creative generation and bid optimization, Gemini is reshaping how performance marketers approach campaign management at scale.</p>
+<h3>Creative Generation at Scale</h3>
+<p>The biggest bottleneck in paid advertising has always been creative production. You need dozens of variants to test, and traditional design workflows can't keep up. Gemini's multimodal capabilities allow us to generate image concepts, video scripts, and ad copy simultaneously — producing 100+ creative variants in the time it used to take to create 10.</p>
+<h3>Audience Intelligence</h3>
+<p>Gemini excels at processing large datasets and identifying patterns. We feed it competitor analysis, market research, and first-party data to generate audience insights that would take human analysts weeks to uncover. The result is hyper-targeted audience segments based on behavioral patterns, interest intersections, and purchase intent signals.</p>
+<h3>Automated Optimization Loops</h3>
+<p>The real magic happens when you combine Gemini's analytical capabilities with automated optimization. We've built workflows where Gemini analyzes campaign performance data daily, identifies underperforming creatives and audiences, generates replacement variants, and feeds recommendations into our optimization pipeline. This creates a continuous improvement loop that compounds performance gains over time.</p>
+<h3>Real-World Results</h3>
+<p>Our clients using Gemini-powered campaign management consistently see 2–5× ROAS improvements within the first 30 days. Creative fatigue — the silent killer of ad performance — is virtually eliminated because we can refresh creative assets at the speed AI enables. One eCommerce client went from $5K to $50K monthly ad spend while maintaining 4.2× ROAS, something that would have been impossible without AI-powered creative and optimization.</p>
+<p>The future of paid advertising is AI-augmented, not AI-replaced. Human strategy and brand intuition remain essential — but the brands that combine human insight with AI execution will outperform those that rely on either alone.</p>
+`}
+];
+
+function showArticle(i){
+document.getElementById('blogList').parentElement.parentElement.style.display='none';
+document.getElementById('articleView').style.display='block';
+document.getElementById('articleContent').innerHTML=articles[i].html;
+window.scrollTo({top:0,behavior:'smooth'});
+}
+function hideArticle(){
+document.getElementById('articleView').style.display='none';
+document.getElementById('blogList').parentElement.parentElement.style.display='';
+window.scrollTo({top:0,behavior:'smooth'});
+}
+</script>
+</body>
+</html>
